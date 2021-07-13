@@ -1,0 +1,397 @@
+html,body{
+	height: 	100%;
+
+}
+
+.bg-hero{
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+	url("https://i1.wp.com/collectible506.com/wp-content/uploads/2017/11/dragon-ball-super-wallpaper-xc.jpg?resize=672%2C372&ssl=1");
+	background-size: cover;
+    background-attachment: fixed;
+
+}
+.bg-meniu{
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+    url("https://i1.wp.com/collectible506.com/wp-content/uploads/2017/11/dragon-ball-super-wallpaper-xc.jpg?resize=672%2C372&ssl=1");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #8db2b4,
+              0 0 150px #77f403,
+              100px 10px 250px #f43b03;
+             
+     
+
+               /* -webkit-background-clip: none;
+               -webkit-text-fill-color:transparent; */
+}
+
+nav.bg-light{
+    background-color: white!important;
+}
+
+
+.navbar-light .navbar-brand {
+    color: rgba(200,200,200,.1);
+    cursor: pointer
+    
+}
+
+ .navbar-light .navbar-brand:hover{
+    color: rgba(0,200,0,.5);
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(241, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link.contact {
+    color: white;
+    background-color: rgb(2, 2, 2);
+    border-radius: 30px;
+
+}
+
+
+
+.bg-dbz{
+    background: 
+    url("https://cf.geekdo-images.com/opengraph/img/xwJJl2unurMldG8oNdYOOvkzzAU=/fit-in/1200x630/pic2914993.jpg");
+    background-size: cover;
+    
+
+}
+
+
+
+#Magazin .overlay{
+	left: 0;
+	top: 0;
+}
+
+#Magazin .bg-image {
+	
+	background-image: no-repeat;
+	background-size: cover;
+
+}
+
+#Magazin .w-25{
+    display:none;
+}
+
+
+
+@keyframes goku {
+  0% {
+      transform: scale(1,1);
+    
+  }
+
+  50% {
+      transform: scale(0.5,0.5);
+  }
+
+  100% {
+      transform: scale(1,1);
+  }
+}
+  
+
+#Magazin img:hover{
+
+  animation: goku 3s infinite ;
+
+}
+
+img{
+  transition: 1s;
+}
+
+img:hover{
+  
+  
+transform: scale(1.5);
+    transition-duration: 0.8s;
+
+}
+
+
+.bg-space{
+    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/realistic-galaxy-milky-way-colorful-space-background_bldyblkux_thumbnail-full01.png");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+
+#carusel img{
+  transition: 1s;
+
+
+}
+#carusel img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+
+
+}
+
+[class*="fa-youtube"]{
+  color: red;
+  
+}
+
+[class*="fa-youtube"]:hover{
+  color: rgb(63, 22, 12);
+  
+}
+
+[class*=" fa-instagram"]{
+  color: rgb(189, 230, 7);
+  
+}
+
+[class*=" fa-instagram"]:hover{
+  color: rgb(47, 56, 6);
+  
+}
+
+/* START HAMBURGER */
+#hamburger-d1 .box {
+    display: inline-block;
+    position: relative;
+    width: 27px;
+    border: none !important;
+    height: 26px;
+}
+
+#hamburger-d1 .line,
+#hamburger-d1 .line::before,
+#hamburger-d1 .line::after {
+    position: absolute;
+    background-color: #000;
+    border-radius: 1px;
+    width: 30px;
+    height: 5px;
+    transition-duration: 0.35s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    content: "";
+    display: block;
+}
+
+#hamburger-d1 .line {
+    display: block;
+    margin-top: -1px;
+    top: 50%;
+}
+
+#hamburger-d1 .line::before {
+    top: -8px;
+}
+
+#hamburger-d1 .line::after {
+    bottom: -8px;
+}
+
+#hamburger-d1 .hamb {
+    transition-duration: .3s;
+    transition-property: opacity, filter;
+    transition-timing-function: linear;
+    display: inline-block;
+    overflow: visible;
+    border: 0;
+    margin: 0;
+    text-transform: none;
+    background-color: transparent;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+#hamburger-d1 .line {
+    transition-duration: 0.22s;
+    transition-timing-function: cubic-bezier(0.49, 0.061, 0.6, 0.22);
+}
+
+#hamburger-d1 .line::before {
+    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+}
+
+#hamburger-d1 .line::after {
+    transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+#hamburger-d1 .ac .line {
+    transform: rotate(225deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+#hamburger-d1 .ac .line::before {
+    top: 0;
+    opacity: 0;
+    transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out;
+}
+#hamburger-d1 .ac .line::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+    transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+/* END HAMBURGER */
+
+
+
+
+
+
+
+
+span {
+  color: #000;
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 2em;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: .2em;
+}
+
+.fire {
+  animation: animation 1s ease-in-out infinite alternate;
+  -moz-animation: animation 1s ease-in-out infinite alternate;
+  -webkit-animation: animation 1s ease-in-out infinite alternate;
+  -o-animation: animation 1s ease-in-out infinite alternate;
+}
+
+.burn {
+  animation: animation .65s ease-in-out infinite alternate;
+  -moz-animation: animation .65s ease-in-out infinite alternate;
+  -webkit-animation: animation .65s ease-in-out infinite alternate;
+  -o-animation: animation .65s ease-in-out infinite alternate;
+}
+
+@keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-moz-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-webkit-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-o-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+.area {
+  text-align: center;
+  text-transform: uppercase;
+  animation: blur 3s ease-out infinite;
+  text-shadow: 0px 0px 5px #FF0000, 0px 0px 7px #FF0000;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 5px #FF0000,
+      0px 0px 10px #87CEEB, 
+      0px 0px 25px #87CEEB,
+      0px 0px 25px #87CEEB,
+      0px 0px 25px #87CEEB,
+      0px 0px 25px #87CEEB,
+      0px 0px 25px #87CEEB,
+      0px 0px 25px #87CEEB,
+      0px 0px 50px #87CEEB,
+      0px 0px 50px #87CEEB,
+      0px 0px 50px #87CEEB,
+      0px 0px 100px #87CEEB,
+      0px 10px 50px #87CEEB,
+      0px 10px 50px #00FF7F,
+      0px 5px 50px #FFFFFF,
+      0px 5px 50px #FFFFFF,
+      0px 5px 50px #FFFFFF,
+      0px -10px 50px #FFFFFF;
+  }
+}
+
+
+
+
+
